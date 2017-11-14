@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amatica_sc</item>
+        <item>@font/fredericka_the_great</item>
+        <item>@font/handlee</item>
+        <item>@font/limelight</item>
+        <item>@font/pacifico</item>
+        <item>@font/shadows_into_light_two</item>
+    </array>
+</resources>

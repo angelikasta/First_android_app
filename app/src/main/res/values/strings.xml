@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="happy">HAPPY</string>
+    <string name="bday">BIRTHDAY</string>
+    <string name="to">TO</string>
+    <string name="udacity">udacity logo</string>
+    <string name="background">background</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.udacity.myapplication.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/f"
+        android:contentDescription="@string/background" />
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/fredericka_the_great"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/happy"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/happy3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happy"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/fredericka_the_great"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/bday"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/happy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happy3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/fredericka_the_great"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/to"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="48sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happy2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        android:src="@drawable/udacity"
+        android:contentDescription="@string/udacity"/>
+
+
+</RelativeLayout>
